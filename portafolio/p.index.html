@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style5.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
+</head>
+<body>
+    <nav>
+        <div class="mi-logo">
+            <img src="logoestrella.svg" alt="logoestrella">
+            <p>jeisson lopez saiz</p>
+        </div>
+        <div class="enlaces-container">
+            <a href="#sobremi">Sobre mi</a>
+            <a href="#skills">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#formacion">Formación</a>
+            <a href="#xp">Proyectos</a>
+            <a href="mailto:saizyeison2@gmail.com">saizyeison2@gmail.com</a>
+        </div>
+    </nav>
+    <section class="seccion1-container">
+        <div class="seccion-1">
+            <div>
+                <h1>Hola, mi nombre es jeison lopez saiz <br>y construyo páginas web</h1>
+            </div>
+            <div>
+                <p> actualmente soy alumno  <br> del proyecto Oracle ONE en Alura Latam.</p>
+            </div>
+            <div class="links-container">
+                <a href="https://github.com/jeisson213">GitHub</a>
+                <img src="flechalink.svg" alt="flechalink">
+                <a href="#">Facebook</a>
+                <img src="flechalink.svg" alt="flechalink">
+                <a href="#">Instagram</a>
+                <img src="flechalink.svg" alt="flechalink">
+                <a href="#">Currículo</a>
+                <img src="flechalink.svg" alt="flechalink">
+            </div>
+        </div>
+        <div class="perfil-container">
+            <img class="imagen perfil" src="img perfil.jpg" alt="imagen de perfil">
+        </div>
+    </section>
+    <section class="seccion2-container" id="sobremi">
+        <div class="seccion-sobremi">
+            <h2>Sobre mi</h2>
+            <p>Soy una persona tranquila.</p>
+        </div>
+    </section>
+
+    <div class="container-skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="html.svg" alt="html">
+                <h3>HTML</h3>
+            </div>
+            <div class="box">
+                <img src="js.svg" alt="js">
+                <h3>JAVASCRIPT</h3>
+            </div>
+            <div class="box">
+                <img src="css.svg" alt="css">
+                <h3>CSS</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-skills">
+        <h2 class="heading" id="hobbies">Hobbies</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="skate.svg" alt="patinaje">
+                <h3>SKATEBOARDING</h3>
+            </div>
+            <div class="box">
+                <img src="musica.svg" alt="musica">
+                <h3>ESCUCHAR MÚSICA</h3>
+            </div>
+            <div class="box">
+                <img src="tv.svg" alt="tv">
+                <h3>VER VIDEOS</h3>
+            </div>
+        </div>
+    </div>
+
+    <section class="container-formacion" id="formacion">
+        <h2 class="heading">Formación académica</h2>
+        <!-- Aquí puedes añadir tu contenido de formación académica -->
+    </section>
+
+    <section class="experience" id="xp">
+        <h2 class="experience__section__title">Experiencia Profesional</h2>
+        <!-- Aquí puedes añadir tus proyectos y experiencia profesional -->
+    </section>
+
+    <section class="formcontato" id="contacto">
+        <div class="formcontato__contacto">
+            <div class="formcontato--esquerda">
+                <img class="formcontato__img" src="celulares_1.jpg_673822677.webp" alt="celulares">
+            </div>
+            <div class="formcontato__text">
+                <h2 class="formcontato__title">Contacto</h2>
+                <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                <h3 class="formcontato__subtext">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</h3>
+                <form class="formcontato__form" name="form" action="mailto:saizyeison2@gmail.com" method="POST">
+                    <div class="input-container">
+                        <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                        <label class="input-label" for="nombre">Nombre</label>
+                        <span class="input-message-error">Este campo no es válido</span>
+                    </div>
+                    <div class="input-container">
+                        <input class="formcontato__input" type="email" name="email" id="email" placeholder="E-mail" required>
+                        <label class="input-label" for="email">E-mail</label>
+                        <span class="input-message-error">Este campo no es válido</span>
+                    </div>
+                    <div class="input-container">
+                        <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                        <label class="input-label" for="asunto">Asunto</label>
+                        <span class="input-message-error
